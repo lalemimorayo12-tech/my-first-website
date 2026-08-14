@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}   
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    background-color: rgb(55, 248, 48);
+    height:80px;
+    padding: 20px;
+
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
