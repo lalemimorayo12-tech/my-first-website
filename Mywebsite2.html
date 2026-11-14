@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Navbar Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" aria-label="BrandName Home">
+                <span class="logo-icon" aria-hidden="true">◆</span>
+                <span class="logo-text">BrandName</span>
+            </a>
+            
+            <input type="checkbox" id="navToggle" class="nav-toggle-input" aria-hidden="true">
+            <label for="navToggle" class="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger" aria-hidden="true"></span>
+            </label>
+            
+            <div class="nav-menu" role="menubar">
+                <a href="#" class="nav-link active" role="menuitem" aria-current="page">Home</a>
+                <a href="#" class="nav-link" role="menuitem">Features</a>
+                <a href="#" class="nav-link" role="menuitem">Pricing</a>
+                <a href="#" class="nav-link" role="menuitem">About</a>
+                <a href="#" class="nav-link" role="menuitem">Contact</a>
+                
+                <div class="nav-actions" role="group" aria-label="User actions">
+                    <a href="#" class="btn btn-outline">Sign In</a>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="hero">
+        <h1>Welcome to BrandName</h1>
+        <p>A modern, responsive navbar built with clean HTML and CSS — no JavaScript</p>
+    </main>
+</body>
+</html>
